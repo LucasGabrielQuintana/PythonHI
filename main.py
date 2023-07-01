@@ -6,7 +6,8 @@ def main():
     # ingreso_de_datos(tam)
     vector = ingreso_de_datos(tam)
     print(vector)
-
+    
+    
 
 def ingreso_de_datos(dimension):
     vector = []
@@ -15,8 +16,7 @@ def ingreso_de_datos(dimension):
         vector.append(valor)
 
     return vector
-
-
-
+                
 if __name__ == '__main__':
     main()
+    
